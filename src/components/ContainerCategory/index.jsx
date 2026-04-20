@@ -15,7 +15,7 @@ const ContainerCategory = () => {
 
             <div className="lg:flex  lg:flex-wrap lg:justify-center lg:items-center grid grid-cols-2 gap-4">
                 {categories.map(({ id, icon, alt, name, link }) => (
-                    <Link to={link} key={id} className="bg-white rounded-2xl flex flex-col items-center justify-center p-4 shadow-sm w-full h-full lg:max-w-61 lg:max-h-42.25 transition-all duration-75 hover:border-2 hover:border-header hover:p-3.5">
+                    <Link to={link} key={id} className="bg-white rounded-2xl flex flex-col items-center justify-center p-4 shadow-sm w-full h-full lg:max-w-61 lg:max-h-42.25 transition-all duration-75 hover:border-2 border-secondary hover:p-3.5">
                         <div className=" rounded-2xl w-fit h-fit flex items-center justify-center">
                             <Img className="w-20 h-20 object-contain" src={icon} alt={alt} />
                         </div>
