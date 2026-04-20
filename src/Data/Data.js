@@ -1,11 +1,14 @@
+import LogoSoveteria from "../assets/icon/LogoSoveteria.png"
+import InconCarrinho from "../assets/icon/InconCarrinho.png"
+
 const Data = [
     {
       headerLogo: [
-        {src: "src/assets/icon/LogoSoveteria.png", alt: "Logo sovete"}
+        {src: LogoSoveteria, alt: "Logo sovete"}
       ],
 
       headerCarrinho: [
-        {src: "src/assets/icon/InconCarrinho.png", alt: "Carrinho"}
+        {src: InconCarrinho, alt: "Carrinho"}
       ]
     }
 ]
