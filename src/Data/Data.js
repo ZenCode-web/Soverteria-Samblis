@@ -30,6 +30,8 @@ import ImgCocaColaVidro from "../assets/imgs/coca-cola-garrafa-vidro-250ml.png"
 import ImgCocaCola1L from "../assets/imgs/coca-cola-garrafa-1litro.png"
 import ImgSucoDelValle from "../assets/imgs/suco-del-valle-450ml.png"
 import ImgMonster from "../assets/imgs/monster-473ml.png"
+import ImgMisto from "../assets/imgs/misto.png"
+import ImgTapioca from "../assets/imgs/tapioca.png"
 
 const Data = [
     {
@@ -86,11 +88,11 @@ const Data = [
         lanches: [
           { id: 20, name: "Cachorro quente (carne)", obs: null, price: 8.00, category: "Lanches e Pratos", image: ImgCachorroQuente },
           { id: 21, name: "Cachorro quente (frango)", obs: null, price: 9.00, category: "Lanches e Pratos", image: ImgCachorroQuente },
-          { id: 22, name: "Misto", obs: null, price: 7.00, category: "Lanches e Pratos", image: null },
+          { id: 22, name: "Misto", obs: null, price: 7.00, category: "Lanches e Pratos", image: ImgMisto },
           { id: 23, name: "Hamburguer simples", obs: null, price: 13.00, category: "Lanches e Pratos", image: ImgHamburguer },
-          { id: 24, name: "Tapioca", obs: "P", price: 8.00, category: "Lanches e Pratos", image: null },
-          { id: 25, name: "Tapioca", obs: "M", price: 11.00, category: "Lanches e Pratos", image: null },
-          { id: 26, name: "Tapioca", obs: "G", price: 15.00, category: "Lanches e Pratos", image: null },
+          { id: 24, name: "Tapioca", obs: "P", price: 8.00, category: "Lanches e Pratos", image: ImgTapioca },
+          { id: 25, name: "Tapioca", obs: "M", price: 11.00, category: "Lanches e Pratos", image: ImgTapioca },
+          { id: 26, name: "Tapioca", obs: "G", price: 15.00, category: "Lanches e Pratos", image: ImgTapioca },
           { id: 27, name: "Cuscuz recheado", obs: null, price: 13.00, category: "Lanches e Pratos", image: ImgCuscuz },
         ],
         salgadinhos: [
