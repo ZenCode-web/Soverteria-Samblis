@@ -9,7 +9,7 @@ const Header = () => {
     const imagemCarrinho = Data.find((e) => e.headerCarrinho).headerCarrinho
 
     return (
-       <header className="w-full bg-header h-20 flex justify-center items-center lg:h-22 ">
+       <header className="w-full bg-header h-20 flex justify-center items-center lg:h-22 fixed top-0 left-0 z-20">
           
           <section className="flex items-center justify-between w-full mx-4 lg:w-[1024px]">
 

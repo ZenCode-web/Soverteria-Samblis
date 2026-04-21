@@ -9,7 +9,7 @@ function App() {
   return (
     <>
       <Header/>
-         <main className="bg-background">
+         <main className="bg-background pt-20 lg:pt-22">
             <Outlet/>
          </main>
       <Footer/>
