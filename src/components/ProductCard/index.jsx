@@ -1,4 +1,12 @@
-const ProductCard = ({ name, price, image, alt, badge, obs }) => {
+import { useCart } from "../../context/CartContext"
+
+const ProductCard = ({ id, name, price, image, alt, badge, obs, category }) => {
+    const { addToCart } = useCart()
+
+    function handleAdd() {
+        addToCart({ id, name, price, image, obs, category })
+    }
+
     return (
         <div className="rounded-3xl overflow-hidden shadow-sm border border-surface w-full lg:max-w-75">
 
@@ -25,7 +33,10 @@ const ProductCard = ({ name, price, image, alt, badge, obs }) => {
                     )}
                 </div>
 
-                <button className="w-full cursor-pointer bg-accent text-secondary text-[10px] lg:text-[13px] font-main font-semibold py-3 rounded-2xl hover:opacity-90 active:scale-95 transition-all">
+                <button
+                    onClick={handleAdd}
+                    className="w-full cursor-pointer bg-accent text-secondary text-[10px] lg:text-[13px] font-main font-semibold py-3 rounded-2xl hover:opacity-90 active:scale-95 transition-all"
+                >
                     Adicionar ao carrinho
                 </button>
             </div>
